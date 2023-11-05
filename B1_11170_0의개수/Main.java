@@ -35,4 +35,8 @@ public class Main {
 		}
 		return count;
 	}
+
+	public static long countChar(String temp, char ch) {
+		return temp.chars().filter(c -> c == ch).count();
+	}
 }

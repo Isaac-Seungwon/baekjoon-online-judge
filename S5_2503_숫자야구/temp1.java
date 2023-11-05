@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class temp1 {
+public class Temp1 {
 	static int n;
 	static int[] arr;
 	static int[] strike;

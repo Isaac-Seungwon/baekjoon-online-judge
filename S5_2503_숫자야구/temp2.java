@@ -6,7 +6,7 @@ import java.util.*;
  * 백준 2503 : 숫자야구
  * 조건 : 서로 다른 숫자 세개, 0은 미포함
  */
-public class temp2 {
+public class Temp2 {
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
       int arr[] = new int[1000];  //정답이 될만한 숫자들을 담는 배열
