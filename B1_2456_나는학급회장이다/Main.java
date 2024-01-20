@@ -1,3 +1,5 @@
+package B1_2456_나는학급회장이다;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -32,7 +34,7 @@ public class Main {
 
         int[] arr1 = Arrays.copyOfRange(sum[0], 1, 4);
         int[] arr2 = Arrays.copyOfRange(sum[1], 1, 4);
-
+        
         if (sum[0][0] == sum[1][0]) {
             if (is(arr1, arr2)) {
                 System.out.println(0 + " " + sum[0][0]); // 회장 결정 불가능한 경우 출력
